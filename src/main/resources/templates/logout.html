@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Logout</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}" />
+    
+    <style>
+		 body {
+            background-color: #f0f8ff; 
+        }
+
+         .one {
+            text-align: center;
+            margin-top: 20%;
+        }
+	</style>
+</head>
+<body>
+	
+	<div class="one">
+    <h1>You have been logged out</h1>
+    <p>Thank you for using the College Management System.</p>
+    <p><a th:href="@{/logout1.html}">Click_here</a> to log in again.</p>
+    
+    </div>
+</body>
+</html>
